@@ -1,0 +1,25 @@
+# Local secrets and generated output
+.idea/
+.vscode/
+**/node_modules/
+**/target/
+**/dist/
+**/coverage/
+*.log
+*.pem
+*.key
+*.p12
+*.pfx
+.env.local
+.env.*.local
+
+# Teaching materials stay local; these patterns apply to new imports.
+/资料/
+/讲义/
+/PPT/
+/assets/
+/springcache-demo/
+/nginx-1.20.2/html/
+/nginx-1.20.2/logs/
+/nginx-1.20.2/nginx.exe
+/必读：课程结构和能力目标.txt
